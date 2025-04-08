@@ -1,0 +1,23 @@
+.recent-searches {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #f1f1f1;
+    border-radius: 12px;
+  }
+  
+  .recent-searches ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .recent-searches li {
+    cursor: pointer;
+    padding: 0.5rem 0;
+    color: #1976d2;
+    transition: color 0.2s ease;
+  }
+  
+  .recent-searches li:hover {
+    color: #0d47a1;
+  }
+  

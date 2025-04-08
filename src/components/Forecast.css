@@ -1,0 +1,56 @@
+.forecast {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+  }
+  
+  .forecast-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .forecast-card {
+    flex: 1 1 180px;
+    max-width: 200px;
+    min-width: 160px;
+    padding: 16px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+  }
+  
+  .forecast-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .forecast-card h4 {
+    margin-bottom: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .forecast-card img {
+    width: 60px;
+    height: 60px;
+    margin: 8px 0;
+  }
+  
+  .forecast-card p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 4px 0;
+  }
+  
+  .forecast-card small {
+    font-size: 0.85rem;
+    opacity: 0.9;
+  }
+  
